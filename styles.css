@@ -45,16 +45,55 @@ h1 {
   line-height: 0.95;
 }
 
+
+
+
+
+
+
+
+
+
+.hero-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 32px 0;
+  border-radius: 12px;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .button {
   display: inline-block;
   margin-top: 24px;
   padding: 14px 22px;
   border-radius: 999px;
   background: white;
+
+
+
   color: #ff0000;
   text-decoration: none;
   font-weight: 700;
 }
+
+
+
+
 
 .section {
   padding: 64px 32px;
@@ -62,12 +101,20 @@ h1 {
   margin: 0 auto;
 }
 
+
+
+
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   padding: 64px 32px;
 }
+
+
+
+
 
 article {
   background: white;
